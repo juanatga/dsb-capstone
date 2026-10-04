@@ -3,73 +3,55 @@
   <span class="headline">Part 2: Dataset + Data Collection</span>
 </h1>
 
-## Overview
+## Goal
 
-Based on the feedback you received from your lightning talk, choose **one** of your topic areas to move forward. For Part 2, you'll need to collect, clean, and document the dataset(s) you intend to use for your project.
+Choose one idea from Part 1. Find data that can help answer your question, check whether it is suitable, make any needed changes, and explain what the data contains.
 
-This is not always a trivial task. Remember that data acquisition, transformation, and cleaning are typically the most time-consuming parts of data science projects, so don’t procrastinate!
+Finding and preparing data can take time. Check early that you can access and use the data. If it does not fit your question, change the data source or revise your question.
 
-Once you have your data, read into it and review it to confirm whether it is as productive as you intended. If not, switch datasets, gather additional data (e.g. multiple datasets), or revise your project goals. 
+## Steps
 
-Create your own database and data dictionary, then clean and munge your data as appropriate. Finally, document your work so far.
+1. Find data that includes the information needed for your question. Record where it came from, when it was collected, and any rules about using it.
+2. Open and inspect the data. Check that it has the information, time period, and geographic coverage you need.
+3. Create a **data dictionary**: a table that lists each column, what it means, and its type or format.
+4. Make and document necessary changes, such as correcting inconsistent formats or deciding how to handle missing values.
+5. Describe the data and your work in a Jupyter Notebook.
 
-**Goal**: Find the data you need for your project, clean, and document it.
+You do not need to create a database. A spreadsheet, CSV file, other data file, or database is acceptable if it fits your project and you explain how to access it.
 
----
+### Example data dictionary
 
-## Requirements
+| Column | Meaning | Type or format |
+| --- | --- | --- |
+| `payment_date` | Date a payment was made | Date, YYYY-MM-DD |
+| `amount_eur` | Amount paid in euros | Number, decimal |
+| `paid_on_time` | Whether the payment was on time | Yes/no |
 
-1. Find and Clean Your Data: Source and format the required data for your project. 
-   - Create a database
-   - Create a data dictionary
-2. Perform preliminary data munging and cleaning of your data: organize your data relevant to your project goals. 
-   - Review data to verify initial assumptions
-   - Clean and munge data as necessary
-3. Describe your data: keep your intended audience(s) in mind.
-   - Document your work so far in a Jupyter notebook. 
+## What to submit
 
-#### Bonus
+- The data files, or a link to data that the instructor can access.
+- A Jupyter Notebook describing the source, contents, checks, and changes you made.
+- A data dictionary.
 
-4. Document your project goals (revise from your initial pitch)
-   - Articulate “Specific aim”
-   - Outline proposed methods and models
-   - Define risks & assumptions
+Do not publish personal, confidential, or restricted data. If you cannot share the data, do not include it in a public repository. Instead, describe its source and structure, remove or protect sensitive information where permitted, and ask your instructor how they can review your work.
 
-5. Create a blog post of at least 500 words that describes your work so far. Link to it in your Jupyter notebook.
+### Optional extensions
 
----
+- Update your project goal and describe your planned methods, assumptions, and risks.
+- Write a blog post of at least 500 words about your work and link to it in your notebook.
 
-## Deliverable Format & Submission
+## Suggested prompts
 
-- Table, file, or database with relevant text file or notebook description.
+- Does the data contain the information I need to answer my question?
+- What does one row represent?
+- Are any values missing, duplicated, or in unexpected formats?
+- What changes did I make, and why?
+- What could make the data incomplete or misleading?
 
----
-
-## Suggested Ways to Get Started
-
-- Review your initial proposal topic and feedback, and revise accordingly. 
-- Spend time with your data and verify that it can help you accomplish the goals you set out to pursue. 
-- If not, document how you intend to either change those goals. 
-- Alternatively, go find some additional data and/or try another source.
-
----
-
-## Useful Resources
+## Useful resource
 
 - [Best practices for data documentation](https://dataoneorg.github.io/Education/bestpractices/)
 
----
+## Evaluation
 
-## Project Feedback + Evaluation
-
-You will be evaluated on the requirements above using the below rubric.
-
-#### RUBRIC
-| Score | Interpretation |
-| --- | --- |
-| **0** | *Project fails to meet the minimum requirements for this item.* |
-| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.* |
-| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.* |
-| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
-
-[Attached here is a complete rubric for this project.](./ds-capstone-part-02-rubric.md)
+Your work will be evaluated using the [Part 2 rubric](./ds-capstone-part-02-rubric.md). Read it before you submit.

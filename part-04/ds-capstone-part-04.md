@@ -3,93 +3,47 @@
   <span class="headline">Part 4: Findings + Technical Report</span>
 </h1>
 
-## Overview
-Data science requires clean data, logical study design, and reproducible results. The best way to do this (and build your portfolio) is to get in the habit of fully documenting your work for your peers and colleagues.
+## Goal
 
-In Part 4 of our Capstone, you'll assemble a technical notebook that details your model and approach for your peers. It should be written in a straightforward manner, with concisely commented code, documented procedures and reasoning, and logical analysis. Where applicable, include clearly labeled plots, graphs, and other visualizations, explaining any outliers and relationships between features and data.  
+Present your analysis in a Jupyter Notebook so another data scientist can follow your choices and understand what you found. Explain the question, the data, your method, how you checked its results, and the limits of your conclusions.
 
-Start with a brief "executive summary" and then walk us through each portion of your notebokk, step by step. Explain your goals, describe modeling choices, evaluate model performance, and discuss results. Data science reporting is technical, but don’t forget that your approach should tell us a compelling story about your data.
+## Suggested notebook outline
 
-Include any additional code, data, or other materials in appendices, as needed. Above all, your process descriptions should be concise and relevant to your goals. 
+1. **Summary:** State the question, the main result, how you measured performance, and the most important limits.
+2. **Question and data:** Describe the goal, the audience, the data source, and the columns used. State what one row represents.
+3. **Data preparation and exploration:** Summarize the checks and analysis from Part 3. Explain how you handled unusual values and missing information. If you filled in missing values, explain the method.
+4. **Method:** Explain which model or statistical method you chose and why. Describe the key steps so another person could repeat them.
+5. **Evaluation:** Explain how you tested the method. Name the measure you used, what data you tested it on, and how the result compares with a simple reference method (a **baseline**). Include relevant results, such as the number or size of errors, and explain what they mean for your question.
+6. **Findings and limits:** Explain what the results suggest and what they do not establish. A model result alone does not prove that one thing caused another.
+7. **Sources and appendix:** Link to data and external code or libraries, and explain how you used them.
 
-**Goal:** Submit a complete notebook of your model for technical stakeholders. This will form the core component of your portfolio.
+Label each section and each chart clearly. Add short comments to code where they explain an important choice or help another person repeat your work.
 
----
+## What to submit
 
-#### REQUIRED
-1. Begin with an executive summary:
-   - What is your goal?
-   - What are your metrics?
-   - What were your findings?
-   - What risks/limitations/assumptions affect these findings?
-   
-2. Walk through your model step by step, starting with EDA.
-   - What are your variables of interest?
-   - What outliers did you remove?
-   - What types of data imputation did you perform?
+- A complete Jupyter Notebook technical report.
+- A technical appendix with links and explanations for external libraries or code you used.
+- A copy of the data or a link to it **only if you are allowed to share it**. Do not upload personal, confidential, or restricted data to a public repository. If the data cannot be shared, describe its source and structure and ask your instructor how to provide access for review.
+- Host your notebook and other shareable materials in your public GitHub repository, as required for this part.
 
-3. Summarize your analysis, including:
-   - model selection
-   - implementation
-   - evaluation
-   - prediction/inference
+### Optional extensions
 
-4. Clearly document and label each section
-   - Logically organize your information in a persuasive, informative manner.
-   - Include notebook headers and subheaders, as well as clearly formatted markdown for all written components.
-   - Include graphs/plots/visualizations with clear labels.
-   - Comment and explain the purpose of each major section/subsection of your code.
-       - *Document your code for your future self, as if another person needed to replicate your approach*
+- Describe how you might monitor the method over time or make it available to users. **Production** means operating the method as part of a real service or workflow.
+- Write a tutorial of at least 1,000 words explaining your approach to someone who is new to data science. Link to it in your notebook.
 
-5. Host your notebook and any other materials in your own public Github Repository.
-   - Include a technical appendix, inlcuding links and explanations to any outside libraries or source code used.
-   - Host a local copy of your dataset or include a link to a remotely hosted version.
+## Suggested prompts
 
-#### BONUS
-6. Describe how this model could be put into production. Consider:
-   - How could you continue to validate your model's performance over time?
-   - What steps might you need to take to productionize your model for an enterprise environment?
-   - How would you deploy your model publicly? What could you do to setup your model and share it online right now?
+- Can another person follow how I prepared the data and reached my result?
+- Did I explain why I chose this method and measure?
+- Did I test the method on data that was not used to fit it?
+- What kinds of errors does the method make, and who could be affected?
+- Do my conclusions stay within what the data and test results support?
 
-7. Create a blog post of at least 1000 words summarizing your approach in a tutorial format and link to it in your notebook. 
-   - In your tutorial, address a slightly less technical audience; think back to Day 1 of the program - how would you explain and walk through your capstone project to your earlier self?
+## Useful resources
 
----
+- [How to report statistics to technical audiences](https://www.bates.edu/biology/files/2010/06/How-to-Write-Guide-v10-2014.pdf)
+- [Data science employers value research reports](https://sentiance.com/data-scientist)
 
-## Deliverable Format & Submission
+## Evaluation
 
-Format: Jupyter Notebook
-
----
-
-## Suggested Ways to Get Started
-
-- Use the DSB Data Science Framework to help you organize your information
-- For any given step, consider the logic that links it to other steps and clearly desribe each assumption.
-- After writing a draft, leave it alone for at least 24 hours. What would you revise, reword, or take out?
-- Alternatively, read over a draft with a peer or in a group. What areas do they find confusing or unclear?
-
-
----
-
-## Useful Resources
-
-- [How to Report Statistics to Technical Audiences](https://www.bates.edu/biology/files/2010/06/How-to-Write-Guide-v10-2014.pdf)
-- [Data Science Employers Value Research Reports](https://sentiance.com/data-scientist)
-- [What is a good way for a data scientist to construct an online portfolio?](https://www.quora.com/What-is-a-good-way-for-a-data-scientist-to-construct-an-online-portfolio)
-
----
-
-## Project Feedback + Evaluation
-
-You will be evaluated on the requirements above using the below rubric.
-
-#### RUBRIC
-| Score | Interpretation |
-| --- | --- |
-| **0** | *Project fails to meet the minimum requirements for this item.* |
-| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.* |
-| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.* |
-| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
-
-[Attached here is a complete rubric for this project.](./ds-capstone-part-04-rubric.md)
+Your work will be evaluated using the [Part 4 rubric](./ds-capstone-part-04-rubric.md). Read it before you submit.

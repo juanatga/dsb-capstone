@@ -3,64 +3,40 @@
   <span class="headline">Rubric for Part 4</span>
 </h1>
 
-## Data Science | Capstone, Part 4
-Your project criteria were derived from the following standards, taken from our data science lifecycle:
+## How scoring works
 
-- [ ] Frame The Problem
-- [ ] Prepare and Explore Your Data
-- [ ] Model
+Score each required item below from 0 to 3. A score describes how well the work meets that item. Optional extensions do not affect the required score.
 
-Acceptable performance for these standards is based on how well you've performed the specific requirements listed below.
-
----
-
-## Performance Evaluation
-
-
-#### RUBRIC
-
-| Score | Interpretation |
+| Score | Description |
 | --- | --- |
-| **0** | *Project fails to meet the minimum requirements for this item.* |
-| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.* |
-| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.* |
-| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
+| **0** | The item is missing or there is not enough information to review it. |
+| **1** | The item is partly complete, but important required information is missing or unclear. |
+| **2** | The item is complete and understandable, with some details or explanations still missing. |
+| **3** | The item is complete, specific, clearly explained, and supported by appropriate information. |
 
+## Required criteria
 
-#### REQUIRED
-1. Begin with an executive summary:
-   - What is your goal?
-   - What are your metrics?
-   - What were your findings?
-   - What risks/limitations/assumptions affect these findings?
-   
-2. Walk through your model step by step, starting with EDA.
-   - What are your variables of interest?
-   - What outliers did you remove?
-   - What types of data imputation did you perform?
+### 1. Summary
 
-3. Summarize your analysis, including:
-   - model selection
-   - implementation
-   - evaluation
-   - prediction/inference
+State the question, main result, performance measure, and important risks or limits.
 
-4. Clearly document and label each section
-   - Logically organize your information in a persuasive, informative manner.
-   - Include notebook headers and subheaders, as well as clearly formatted markdown for all written components.
-   - Include graphs/plots/visualizations with clear labels.
-   - Comment and explain the purpose of each major section/subsection of your code.
-       - *Document your code for your future self, as if another person needed to replicate your approach*
+### 2. Question, data, and preparation
 
-5. Host your notebook and any other materials in your own public Github Repository.
-   - Include a technical appendix, inlcuding links and explanations to any outside libraries or source code used.
-   - Host a local copy of your dataset or include a link to a remotely hosted version.
+Explain the project goal, data source, columns used, and the meaning of one row. Describe relevant data checks and how you handled unusual values or missing information.
 
-#### BONUS
-6. Describe how this model could be put into production. Consider:
-   - How could you continue to validate your model's performance over time?
-   - What steps might you need to take to productionize your model for an enterprise environment?
-   - How would you deploy your model publicly? What could you do to setup your model and share it online right now?
+### 3. Method and evaluation
 
-7. Create a blog post of at least 1000 words summarizing your approach in a tutorial format and link to it in your notebook. 
-   - In your tutorial, address a slightly less technical audience; think back to Day 1 of the program - how would you explain and walk through your capstone project to your earlier self?
+Explain the method you chose and why. Describe how you tested it, name the performance measure, and report results in a way that answers the project question. Compare the result with a simple reference method (baseline) where appropriate.
+
+### 4. Findings, limits, and notebook clarity
+
+Explain what the results suggest and what they cannot establish. Organize and label notebook sections and charts clearly. Include code comments where they help someone understand or repeat an important step.
+
+### 5. Sources and sharing
+
+Include an appendix with links to external libraries, code, and data sources. Host the notebook and shareable materials in a public GitHub repository. Do not publish data that is personal, confidential, or restricted; explain how the instructor can review work that cannot be shared publicly.
+
+## Optional extensions
+
+- Describe how you could monitor the method over time or make it available in a real service or workflow.
+- Write a 1,000-word tutorial for someone new to data science and link to it in the notebook.

@@ -1,32 +1,42 @@
 # Finding a Data Science Capstone Idea
 
-You do not need access to data from your current institution to choose a strong capstone. Start with a question you care about, then look for data that can help answer it. Your inspiration can come from:
+You do not need data from your current institution. Start with a question you care about, then look for data that can help answer it. Your idea can come from:
 
 - **Your current work:** a decision, prediction, or recurring uncertainty in your field.
 - **A personal interest:** a hobby, sport, subject, or question you enjoy exploring.
 - **Your community:** a local service, environment, or issue that affects people around you.
 
-The capstone is a chance to apply data science methods to a practical question. A project does not need to be adopted by an institution to be valuable.
+Your project is a chance to use data to answer a practical question. It can be valuable even if an organization does not put the result into use.
+
+## Start here
+
+1. Write down an interest or problem you care about.
+2. Turn it into a question that data could help answer.
+3. Decide who might use or care about the answer.
+4. Look for data that contains the information you need.
+5. Check that you can access and use the data before choosing the idea.
+
+If the data is not available, narrow or change the question, or look for similar data from another place or field.
 
 ## What makes a question a data science project?
 
 | Project type | Main question | Example |
 | --- | --- | --- |
-| **Data science** | Can data help predict an outcome, classify cases, find groups, or detect unusual patterns—and how well does the method work on new data? | Can historical payment behavior help identify installment plans at risk of a missed payment? |
-| **Data analytics** | What happened, and how can we describe it? | How many payments were late each month? A descriptive report can be a useful first step, but a report alone may not meet the capstone's modeling goal. |
-| **Process automation** | How can a task or workflow be completed with fewer manual steps? | Can a script copy payment details into a report? Useful work, but automation alone does not test a predictive or statistical question. |
+| **Data science** | Can data help predict a result, sort cases into categories, find groups, or flag unusual cases? How well does the method work on data it has not seen before? | Can past payment information help identify payment plans at higher risk of a missed payment? |
+| **Data analytics** | What happened, and how can we describe it? | How many payments were late each month? A report like this is a useful first step, but by itself it may not meet the capstone's goal of testing a method. |
+| **Process automation** | How can a task be done with fewer manual steps? | Can a script copy payment details into a report? This can be useful, but automation alone does not test a question about patterns or predictions in data. |
 
-Analytics and automation can support a data science project. To make data science the central contribution, define a question that can be tested with data, build an appropriate model or statistical analysis, and evaluate the result. A model should inform a decision or understanding; it should not be presented as proof of cause or as an automatic decision-maker.
+Analytics and automation can be part of a data science project. The main contribution should be a question you can test with data, a suitable method, and an evaluation of its results. A model is a method that finds patterns in data or makes estimates. Use its result to support a decision or understanding; it does not prove that one thing caused another, and it should not make important decisions without human review.
 
 ## Examples inspired by students' work
 
-These examples build on interests students have mentioned. They do not assume that institutional data will be available. Look for public data, an approved anonymized extract, or a comparable dataset from another context.
+These examples build on interests students have mentioned. You do not need data from an institution. Look for public data, an approved dataset with identifying details removed, or similar data from another setting.
 
 ### Weather
 
 - **Data science question:** Can recent observations and past forecast errors improve short-term temperature or rainfall forecasts for a location?
 - **Not this alone:** What was the average rainfall by month last year? That describes past data but does not test a model.
-- **Possible data and approach:** Weather observations and historical forecasts; compare a time-series or regression model with a simple baseline.
+- **Possible data and approach:** Weather observations and past forecasts; compare a forecasting method with a simple baseline (a basic result that a more complex method should improve on).
 
 ### Occupational safety
 
@@ -60,7 +70,7 @@ These examples build on interests students have mentioned. They do not assume th
 
 ## Examples from community and personal interests
 
-These are starting points for Montenegro or the wider Balkan region. A student can study a place they care about even if the available data comes from another country or a broader regional source. First check coverage, language, date range, and whether the variables needed for the question are actually present.
+These are starting points for Montenegro or the wider Balkan region. You can study a place you care about even if the available data comes from another country or a wider region. First check which places and dates the data covers, what language it uses, and whether it contains the information your question needs.
 
 ### Community: seasonal tourism
 
@@ -84,21 +94,21 @@ Data availability will vary by country, city, sport, and language. Try internati
 
 ## Questions to shape your idea
 
-Use these prompts to turn a broad interest into a project proposal:
+Use these prompts to turn a broad interest into a project proposal. An **outcome** is the result you want to predict or explain; **input variables** are the pieces of information you will use to do that.
 
 1. **What interests me?** Is it connected to my work, a personal interest, or my community?
 2. **Who could use or care about the result?** What decision or understanding could it support?
 3. **What exactly do I want to estimate or discover?** Name an outcome to predict, a category to classify, groups to explore, or unusual cases to identify.
 4. **What does one row of my data represent?** For example, one match, payment, injury, day of weather, or sensor reading.
 5. **Can I find data with the outcome and input variables I need?** Check source, access rules, language, time period, geographic coverage, and data quality.
-6. **What simple baseline can I compare against?** A model needs a fair point of comparison.
-7. **How will I measure success?** Choose a metric that reflects the cost of different errors and the needs of the audience.
+6. **What simple baseline can I compare against?** A baseline is a simple result or method to beat. It shows whether a more complex method adds value.
+7. **How will I measure success?** Choose a measure that reflects the cost of different errors and the needs of the audience.
 8. **Can I test the model on data it did not learn from?** For time-based data, preserve the order of time when making the test split.
 9. **What are the risks and limits?** Consider privacy, bias, missing data, small samples, changing conditions, and whether results generalize to the people or place of interest.
 
 ### A proposal template
 
-> **For [audience], I want to [predict/classify/estimate/discover] [specific outcome or pattern] using [data source]. I will compare [method] with [baseline] and measure success using [metric]. The result could support [decision or understanding]. The main limits are [data, privacy, fairness, or generalization limits].**
+> **For [audience], I want to [predict a result / sort cases into categories / estimate a value / find a pattern] using [data source]. I will compare [method] with [simple baseline] and measure success using [success measure]. The result could support [decision or understanding]. The main limits are [data, privacy, fairness, or whether the result applies in other settings].**
 
 ### If you cannot access the ideal data
 
@@ -106,6 +116,6 @@ Use these prompts to turn a broad interest into a project proposal:
 - Narrow the question to match the data that is available.
 - Use an approved anonymized sample if one can be provided safely.
 - Use synthetic data to practice a method, while stating that synthetic results do not establish real-world performance.
-- If the dataset has no outcome labels, consider an unsupervised question such as clustering or anomaly detection, and define how you will judge whether the result is useful.
+- If the dataset does not say which outcome happened, you may still look for groups of similar cases (clustering) or unusual cases (anomaly detection). Decide how you will judge whether those results are useful.
 
 Do not spend weeks building around a dataset you cannot obtain. Confirm that the data exists and can be used before committing to a project topic.

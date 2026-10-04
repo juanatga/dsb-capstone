@@ -3,97 +3,67 @@
   <span class="headline">Part 1: Pitch + Problem Statement</span>
 </h1>
 
-## Overview
+## Goal
 
-In the field of data science, good projects are **practical**. Your capstone project should be manageable and affect a real world audience. This might be a domain you are familiar with, a particular interest you have, something that affects a community you are involved in, or an area that relates to a field you wish to work in.
+Choose a project question that matters to you and may be answered with data. You can start from your work, a personal interest, or a question that matters to your community. The project should be small enough to complete during the program.
 
-One of the best ways to test ideas quickly is to share them with others. A good data scientist has to be comfortable discussing ideas and presenting to audiences. That's why for Part 1 of your Capstone project, you'll be preparing a lightning talk on some potential interest areas and datasets.
+If you need ideas, read [Finding a Data Science Capstone Idea](./capstone-project-ideas.md).
 
-This deliverable will provide you with guidance to help you select an awesome topic and begin to build a polished Capstone project. 
+## Steps
 
-If you are still looking for a topic, use [Finding a Data Science Capstone Idea](./capstone-project-ideas.md). Your idea can come from your current work, a personal interest, or a question that matters to your community. You do not need to use data from your current institution.
+1. Think of at least two possible project questions.
+2. For each question, identify a possible audience, the result you want to produce, a way to judge whether that result is useful, and a possible data source.
+3. Check that each data source exists and that you can access and use it. If the exact data is unavailable, narrow or change the question, or look for comparable data.
+4. Prepare slides and give a 3–4 minute talk about your two ideas.
 
-**Goal**: Host a lightning talk presentation describing *at least two* project proposals, including associated data, goals, audiences, and metrics.
+## What to include for each idea
 
----
+- **Question or problem:** What do you want to find out or predict?
+- **Audience:** Who might use or care about the result?
+- **Goal:** What result do you hope to produce?
+- **Success measure:** How will you judge whether the result is useful? A measure could describe how often predictions are correct or how large their errors are.
+- **Possible data source:** Where could the data come from? Say whether it is available, and note any access steps or restrictions.
 
-#### REQUIRED
-1. Prepare a slide deck and host a 3-4 minute lightning talk on **at least two** potential topics for your capstone project. For each topic, define **all** required areas:
+### Example
 
-2. Topic 1
-   - Problem Statement
-   - Potential Audience 
-   - Goals
-   - Success Metrics
-   - Data Source(s) _(subject to change)_
-   
-3. Topic 2
-   - Problem Statement
-   - Potential Audience 
-   - Goals
-   - Success Metrics
-   - Data Source(s) _(subject to change)_
+For a project about missed payments:
 
-#### BONUS
-4. Beyond the two required topics, what other potential topics might you explore? (e.g. 3 or more)
-5. For all datasets, identify their source, format, and necessary action items to obtain or access them.
-6. Create a blog post of at least 500 words (and 1-2 graphics!) that describes your project idea, data, and audience. Link to it in your presentation appendix.
- 
- ***Remember, if you can't find data to support your topic, then you can't move forward.***
+- **Question:** Can past payment information help identify payment plans at higher risk of a missed payment?
+- **Audience:** Staff who help people manage payment plans.
+- **Goal:** Identify plans that may need follow-up.
+- **Success measure:** Check how many missed payments the method identifies and how many plans it flags by mistake.
+- **Possible data source:** An approved, anonymized record of payment plans and their outcomes. If this is not available, find a public dataset with similar information or choose another question.
 
----
+## What to submit
 
-## Deliverable Format & Submission
+- Slides for at least two possible project ideas.
+- A 3–4 minute presentation.
 
-- Slide Deck & Presentation
+### Optional extensions
 
----
+- Include more than two possible ideas.
+- For each data source, state its format and what you need to do to get access.
+- Write a blog post of at least 500 words about your project idea, data, and audience. Include 1–2 graphics and link to the post in an appendix to your slides.
 
-## Suggested Ways to Get Started
+## Suggested prompts
 
-**Begin by Asking:**
-- What is the scope of the need or problem I wish to investigate?
-- Who is this for? Who is impacted or affected by this data? Who would benefit from this model?
-- What are my goals for this investigation?
-- What does success look like? How will I know if my model performs well?
-- Where will I find data for this project? Is the data available?
+- What question do I want to answer?
+- Who might use or care about the answer?
+- What would a useful result look like?
+- What data would I need? Can I access and use it?
+- If my first data source is unavailable, how could I change the question or use comparable data?
 
-**For the Bonus, Ask:**
-- What format is the data in? What specific steps do I need to take to access it?
-- How will I explain this project to outside audiences?
+For one idea, start with a question and look for data. For another, you can start with an interesting dataset and ask what question it might help answer.
 
-**Other Tips:**
-- For your 1st potential topic, start with an idea, then look for potential data that could be used to support that idea.
-- For your 2nd potential topic, reverse the process; look for interesting data and then extrapolate problems it could solve and audiences it could impact.
+## Useful resources
 
----
+- [How to give a good lightning talk](https://www.semrush.com/blog/16-ways-to-prepare-for-a-lightning-talk/)
+- [Google Dataset Search](https://toolbox.google.com/datasetsearch)
+- [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
+- [Kaggle Datasets](https://www.kaggle.com/data) (Check whether a dataset has already been used by many other projects.)
+- [pandas-datareader](https://pandas-datareader.readthedocs.io/en/latest/remote_data.html)
+- [List of Python API wrappers](https://github.com/discdiver/list-of-python-api-wrappers)
 
-## Useful Resources
+## Evaluation
 
-- [How to give a good lightning talk.](https://www.semrush.com/blog/16-ways-to-prepare-for-a-lightning-talk/)
-
-### Some ideas for Data Sources
-
-- [Google Datasets Search Tool](https://toolbox.google.com/datasetsearch)
-- [Awesome Data](https://github.com/awesomedata/awesome-public-datasets)
-- [Kaggle Datasets (Generally, don't use only this if many folks have used the dataset.)](https://www.kaggle.com/datasets)
-- [Open Data Library](https://opendatalibrary.com/)
-- [Pandas Data Reader](https://pandas-datareader.readthedocs.io/en/latest/remote_data.html)
-- [Jeff's List of Python API Wrappers](https://github.com/discdiver/list-of-python-api-wrappers) 
-
-
----
-
-## Project Feedback + Evaluation
-
-You will be evaluated on the requirements above using the below rubric.
-
-#### RUBRIC
-| Score | Interpretation |
-| --- | --- |
-| **0** | *Project fails to meet the minimum requirements for this item.* |
-| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.* |
-| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.* |
-| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
-
-[Attached here is a complete rubric for this project.](./ds-capstone-part-01-rubric.md)
+Your work will be evaluated using the [Part 1 rubric](./ds-capstone-part-01-rubric.md). Read it before you present.

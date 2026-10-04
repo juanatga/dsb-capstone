@@ -5,53 +5,34 @@
 
 # Capstone Project
 
-Your Capstone project is the culmination of your time at GA. You are tasked with developing an interesting question, collecting the data required to model that data, developing the strongest model (or models) for prediction, and communicating those findings to other data scientists and non-technical individuals. This introductory document lays out the five consitutent portions of the project and their due dates.
+The capstone is a project that brings together the skills you have learned in the program. You will choose a question, find and prepare data, explore it, build and evaluate an analysis or model, and explain what you learned.
 
-## Your Deliverables
+## Your path through the project
 
-The Capstone Project is divided into 5 deliverables, each building on top of skills learned previously to scaffold your learning over the entire course. Project deliverables include objectives, requirements, rubrics, and suggested resources - all of which tie into the overall competencies for this course.
+| Part | What you will do | What you will submit |
+| --- | --- | --- |
+| [Capstone, Part 1: Pitch + Problem Statement](./part-01/ds-capstone-part-01.md) | Explore at least two questions and identify possible data, audiences, and ways to measure success. | Slides and a 3–4 minute talk |
+| [Capstone, Part 2: Dataset + Data Collection](./part-02/ds-capstone-part-02.md) | Choose one question, find suitable data, check it, and document any changes you make. | Data files (or a safe link to them) and a notebook describing the data and your work |
+| [Capstone, Part 3: EDA + Preliminary Analysis](./part-03/ds-capstone-part-03.md) | Use summaries and charts to understand the data, note problems, and plan your next steps. | Jupyter Notebook progress report |
+| [Capstone, Part 4: Findings + Technical Report](./part-04/ds-capstone-part-04.md) | Build and evaluate your analysis or model and explain your decisions. | Jupyter Notebook technical report |
+| [Capstone, Part 5: Presentation + Non-Technical Summary](./part-05/ds-capstone-part-05.md) | Share your main findings with a general audience and answer questions. | Slide deck and a 15-minute presentation, plus 5 minutes for questions |
 
-### **[Capstone, Part 1: Pitch + Problem Statement](./part-01/ds-capstone-part-01.md)**
+Each part builds on earlier work. You may revise your question when you learn more about the data. Read the instructions for that part before you begin, and use its linked rubric to check your work.
 
-Pitch us on potential ideas for a data-driven project. Think of topics you’re passionate about, knowledge you’re familiar with, or problems relevant to to industries you’d like to work with. What questions do you want to answer?
+## Part 1: Choose a project idea
 
-- **Need help choosing an idea?** See [Finding a Data Science Capstone Idea](./part-01/capstone-project-ideas.md) for examples from students' work, personal interests, and community questions, plus prompts for checking whether an idea fits this program.
-- **Requirements:** Lightning talk with 2-3 topics, including a problem statement, potential audience, goals, and success metrics, as well as possible data sources for each. Remember, if you can’t find data, you can’t do your project.
-- **Format:** Slide deck
+Need help choosing a question? Start with [Finding a Data Science Capstone Idea](./part-01/capstone-project-ideas.md). Ideas can come from your work, personal interests, or your community. You do not need data from your current institution.
 
-### **[Capstone, Part 2: Dataset + Data Collection](./part-02/ds-capstone-part-02.md)**
+For each of two ideas, describe the question, who might use or care about the result, what you hope to learn, how you would judge whether the result is useful, and where you might find data. Check that the data is available before committing to an idea.
 
-Use your newfound skills to source and collect the relevant data for your project. Data acquisition, transformation, and cleaning are typically the most time-consuming parts of data science projects, so don’t procrastinate! 
+## Timing
 
-- **Requirements**: Source and format the data for your project. Perform preliminary data munging and cleaning of the data relevant to your project goals.  Describe your data keeping the intended audience of your final report in mind.
-- **Format:** Table, file, or database with relevant text file or notebook description.
+Follow the due dates and presentation schedule shared by your instructor. This repository does not contain a schedule.
 
-### **[Capstone, Part 3: EDA + Preliminary Analysis](./part-03/ds-capstone-part-03.md)**
+## Sharing your work safely
 
-Begin quantitatively describing and visualizing your data. With rich datasets, EDA can go down an endless number of roads. Maintain perspective on your goals and scope your EDA accordingly. Managing your own time is a critical skill in analysis projects.  Keep notes on your approach, results, setbacks, and findings.
+Before you publish a notebook or data file, check that you have permission to share it. Do not publish personal, confidential, or otherwise restricted data. If you cannot share the data, describe its source and structure and explain how an instructor can review your work safely.
 
-- **Requirements**: Perform initial descriptive and visual analysis of your data. Identify outliers, summarize risks and limitations, and describe how your EDA will inform your modeling decisions.
-- **Format:** Jupyter Notebook 
+## Repository note
 
-### **[Capstone, Part 4: Findings + Technical Report](./part-04/ds-capstone-part-04.md)**
-
-Share your technical findings with your fellow data scientists. Explain your goals, describe modeling choices, evaluate model performance, and discuss results. Data science reporting is technical, but don’t forget that you should tell a compelling story about your data.
-
-- **Requirements**: Summarize your goals and metrics for success, variables of interest, and removal of any outliers or data imputation. Your process description should be concise and relevant to your goals. Summarize statistical analysis, including model selection, implementation, evaluation, and inference. Be convincing – justify all important decisions! Clearly label plots and visualizations. Include an Executive Summary.
-- **Format:** Jupyter Notebook
-
-### **[Capstone, Part 5: Presentation + Non-Technical Summary](./part-05/ds-capstone-part-05.md)**
-
-Take your findings and share a 15-minute, well-rehearsed presentation that delivers the most important insights from your project. Tell us the most interesting story about your data. Break down your process for a novice audience. Make sure to include compelling visuals. Time is short, so be sure to practice and include only the most relevant components of your project.
-
-- **Requirements**: Convey your goals, limits/assumptions, methods and their justification, findings, and conclusions. Define technical terms. Include graphics and visualizations. 
-- **Format:** Public presentation of 13-17 minutes, plus 5 minutes of questions. Presentation should include interactive graphics, website, and/or slide deck.
-
----
-
-## Important note
-Please ignore the `_layouts` folder and the `config.yml` file in the root of this repo.  They are needed to make sure the repo renders well; please don't change them or delete them and your repo will work fine :)
-
----
-
-#### [Instructor-only resources]()
+The `_layouts` folder and `config.yml` help this repository display correctly. Do not delete or change them unless you are maintaining the site.

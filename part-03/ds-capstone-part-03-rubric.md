@@ -3,42 +3,32 @@
   <span class="headline">Rubric for Part 3</span>
 </h1>
 
-## Data Science | Capstone, Part 3			
-Your project criteria were derived from the following standards, taken from our data science lifecycle:
+## How scoring works
 
-- [ ] Frame The Problem
-- [ ] Prepare and Explore Your Data
-- [ ] Model
+Score each required item below from 0 to 3. A score describes how well the work meets that item. Optional extensions do not affect the required score.
 
-Acceptable performance for these standards is based on how well you've performed the specific requirements listed below.
-
----
-
-## Performance Evaluation
-
-#### RUBRIC
-| Score | Interpretation |
+| Score | Description |
 | --- | --- |
-| **0** | *Project fails to meet the minimum requirements for this item.* |
-| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.* |
-| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.* |
-| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
+| **0** | The item is missing or there is not enough information to review it. |
+| **1** | The item is partly complete, but important required information is missing or unclear. |
+| **2** | The item is complete and understandable, with some details or explanations still missing. |
+| **3** | The item is complete, specific, clearly explained, and supported by appropriate information. |
 
+## Required criteria
 
-#### REQUIRED
-1. Create a "progress report" that documents:
-   - Your approach to exploratory data analysis.
-   - Your initial results.
-   - Any roadblocks, setbacks, or surprises.
-   
-2. Perform initial descriptive and visual analysis of your data.
-   - Identify outliers.
-   - Summarize risks and limitations.
+### 1. Progress report
 
-3. Discuss your proposed next steps.
-   - Describe how your EDA will inform your modeling decisions.
-   - What are three concrete actions you need to take next?
+Describe the analysis you have done, your initial results, and any problems, surprises, or changes in direction.
 
-#### BONUS
-4. Visualize your EDA and approach using at least **two or more** of the data visualizations methods we've covered in class.
-5. Create a blog post of at least 500 words explaining your EDA so far, including your results, setbacks, and lessons learned. Link to this in your notebook.
+### 2. Summaries, charts, and data limits
+
+Use summaries and charts to describe the data. Identify unusual values and explain how you checked them. Describe important risks and limits in the data.
+
+### 3. Next steps
+
+Explain how what you learned will affect your next analysis or model. List three specific actions you will take next.
+
+## Optional extensions
+
+- Use at least two different types of charts or visual summaries covered in class.
+- Write a 500-word blog post about your analysis, results, setbacks, and lessons. Link to it in your notebook.

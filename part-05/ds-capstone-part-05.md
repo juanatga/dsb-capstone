@@ -3,101 +3,70 @@
   <span class="headline">Part 5: Presentation + Non-Technical Summary</span>
 </h1>
 
-## Overview
+## Goal
 
-Whether during an interview or as part of a job, you will frequently have to present your findings to business partners and other interested parties - many of whom won't know anything about data science!
+Explain your project and its main findings to people who may not know data science. A clear presentation gives the audience enough background to understand the question, what you did, what you found, and what the findings can and cannot tell them.
 
-That's why for Part 5, you'll create a 15 minute presentation that delivers the most important insights from your project to an audience. You've already done the analytical work; now it's time to explain your findings to the public.
+## Steps
 
-Take your findings and share the most important insights from your project. Be prepared to translate things for both non-technical and technical people. Tell us the most interesting story about your data. Break down your process for a novice audience. Make sure to include compelling visuals. Time is short, so be sure to practice - and **include only the most relevant components of your project**.
+1. Choose the most important information from your technical report in Part 4.
+2. Prepare a slide deck with clear, readable visuals and charts.
+3. Explain technical terms the first time you use them. Tell the audience what a chart shows and why it matters.
+4. Rehearse the presentation and prepare to answer questions.
 
-Finally, be prepared to answer questions and explain your choices to an inquisitive audience!
+## What to include
 
-**Goal:** A public presentation of your project, including an explanation of your model and findings for a non-technical audience.
+- The question and why it matters.
+- Your goal and how you decided whether the result was useful.
+- What data you used and any important gaps or limits.
+- Your overall approach and a plain-language description of the model or analysis.
+- Your main findings, risks, and limits.
+- What the findings could mean, and possible next steps.
 
----
+Use a story to connect these points. Focus on the few findings that best answer your question. Use charts or images to help explain them, not to decorate the slides.
 
-#### REQUIRED
+## What to submit
 
-1. Host a 15-minute well-rehearsed presentation of your project for your audience.
-   - Define technical terms and any basic data science concepts that inform your approach.
-   - Don't just deliver the information; tell a story about the problem and solution.
+- A slide deck suitable for a public audience.
+- A rehearsed presentation of **15 minutes**, followed by **5 minutes for questions**.
 
-2. Prepare polished visuals and a publicly-suitable slide deck to guide your presentation. 
-   - Include graphs and/or visualizations.
+An interactive chart or website may be included as an extra. It does not replace the slide deck or presentation.
 
-3. Make sure you cover the following areas:
-   - Goals
-   - Success Criteria / Metrics
-   - Data
-   - Overall Approach
-   - Basic description of model
-   - Findings
-   - Risks/Limitations
-   - Impact, next steps, conclusions
-   
-4. Successfully answer questions about your project from, and for, your audience.
+### Optional extensions
 
-#### BONUS
+- Explain how you might check whether the method stays useful over time or make it available as part of a real service or workflow.
+- Create a public interactive chart so the audience can explore the data and findings. You may link or embed it in a tutorial or blog post.
 
-5. Discuss longer term potential of your project and model.
-   - Describe how you could validate your model's performance over time
-   - Explain how you would deploy your model in a production environment
+## Suggested prompts
 
-6. Create a publicly hosted interactive visualization that your audience can use to further access and explore your data and findings.
-   - Bonus points for embedding this into your blog post tutorial!
+- Could someone unfamiliar with my project explain the main finding after my talk?
+- Have I explained technical words and chart labels?
+- Have I made clear what the data cannot tell us?
+- Can I answer why I chose this data, method, and success measure?
+- Have I rehearsed within the 15-minute limit?
 
+## Useful resource
 
-## Deliverable Format & Submission
+- [Storytelling with data: best practices (Tableau)](../assets/Best-Practices-for-Telling-Great-Stories(Tableau).pdf)
 
-- Format: Public presentation of 13-17 minutes, plus 5 minutes of questions. Presentation should include interactive graphics, website, and/or slide deck.
+## Example projects
 
----
+These examples were created by past General Assembly data science students. They are optional inspiration; your project can be much smaller and can focus on your own work, interests, or community.
 
-## Suggested Ways to Get Started
+- [Kenya Chauche: sonnet generation](https://github.com/KenyaChauche/sonnet-generation)
+- [Molly Baird: computer vision and the game of SET](https://github.com/mollycbaird/ComputerVisionSET)
+- [Daniel Johnston: machine learning methods from scratch](https://github.com/djkjohnston/ML_from_scratch_GA_DSI_Capstone)
+- [Alex Schultz: coffee prices and sentiment analysis](https://github.com/fullquartpress/DSI-Capstone)
+- [Brice Walker: voice transcription](https://github.com/bricewalker/Hey-Jetson)
+- [Caitlin Streamer: pneumonia classification from X-rays](https://github.com/c-streams/Pneumonia)
+- [Brian Osgood: image recognition for a Twitter bot](https://github.com/osgoodbl/PyFilter)
+- [Frank Turner: colors in fashion collections](https://github.com/frankturnerv/Fashioning_Models_from_Fashion_Models)
+- [DSI-06 team: evacuation routes](https://github.com/balak4/Optimizing-Evac-Routes)
+- [Amy Taylor: dance music analysis](https://github.com/amytaylor330/CNN_for_Dance_Music_Classification_repost)
+- [Veronica Giannotta: emotions and viral content](https://github.com/vgiannotta/Emotional-Impacts-of-Viral-Content)
+- [Derek Steffan: Twitch chat analysis](https://github.com/dsteffan/twitch_chat_analysis)
+- [Sebastian Alvis: League of Legends analysis](https://github.com/salvis2/SpringboardAlvis/tree/master/capstone_project_1)
 
-- Review the information you provided in the "Exective Summary" from Part 4. This is the same information you should cover here.
-- The difference is that you should **not** assume that your audience knows anything about your problem, model, or basic data science. Structure your presentation as if explaining your model to a non-data science friend.
-- Practice! Test your presentation on other GA students or friends and see where they have questions.
-- Include more visuals (and less text) than you think.
-- Don't just read your presentation - deliver it!
+## Evaluation
 
----
-
-## Useful Resources
-
-- [Importance of Storytelling w Data - Tableau Whitepaper](../assets/Best-Practices-for-Telling-Great-Stories(Tableau).pdf')
-
-### Example Projects
-
-Below are some great capstone projects submitted by past US data science students over the years!
-
-* [Kenya Chauche, DSI-10](https://github.com/KenyaChauche/sonnet-generation) built a natural language generation program trained on Shakespeare's sonnets
-* [Molly Baird, DSI-11](https://github.com/mollycbaird/ComputerVisionSET) wanted to computerize the game of SET, and succeeded admirably
-* [Daniel Johnston, DSI-2](https://github.com/djkjohnston/ML_from_scratch_GA_DSI_Capstone) built several key machine learning algos from scratch in python, comparing their performance to the scikit-learn implementations.  
-* [Alex Schultz, DSI-3](https://github.com/fullquartpress/DSI-Capstone) predicts spot coffee (commodity coffee bean) price changes from sentiment analysis of an industry trade publication.  
-* [Brice Walker, DSI-3](https://github.com/bricewalker/Hey-Jetson) wanted to play with his Jetson GPU and built voice transcription _from scratch_.  
-* [Caitlin Streamer, DSI-4](https://github.com/c-streams/Pneumonia) worked on a Kaggle dataset to predict pneumonia from chest X-rays.  
-* [Brian Osgood, DSI-04](https://github.com/osgoodbl/PyFilter) built a bot that crawls twitter and identifies whether an image tagged 'lamborghini' is actually a lamborghini.  
-* [Frank Turner, DSI-04](https://github.com/frankturnerv/Fashioning_Models_from_Fashion_Models) uses image recognition to identify the colors used in a fashion season's palette.  
-* [DSI-06, team](https://github.com/balak4/Optimizing-Evac-Routes) This is actually the DSI-6 group project. It's here because it's really, really impressive.  
-* [Amy Taylor, DSI-06](https://github.com/amytaylor330/CNN_for_Dance_Music_Classification_repost) wanted to quantify the difference between types of dance music.  
-* [Veronica Giannotta, DSI-06](https://github.com/vgiannotta/Emotional-Impacts-of-Viral-Content) delved into the dark side of the internet and evaluated the emotional sentiment of social media content that goes viral.
-* [Derek Steffan, DSI-07](https://github.com/dsteffan/twitch_chat_analysis) automates the process of creating twitch highlight reels using sentiment analysis, markov chains, and Bayesian analysis.  
-* [Sebastian Alvis, League of Legends](https://github.com/salvis2/SpringboardAlvis/tree/master/capstone_project_1) Not a GA Capstone, but a very compelling case for applying data science to your interests to come up with a good capstone.
-
----
-
-## Project Feedback + Evaluation
-
-You will be evaluated on the requirements above using the below rubric.
-
-#### RUBRIC
-| Score | Interpretation |
-| --- | --- |
-| **0** | *Project fails to meet the minimum requirements for this item.* |
-| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.* |
-| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.* |
-| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
-
-[Attached here is a complete rubric for this project.](./ds-capstone-part-05-rubric.md)
+Your work will be evaluated using the [Part 5 rubric](./ds-capstone-part-05-rubric.md). Read it before you present.

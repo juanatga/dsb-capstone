@@ -3,66 +3,49 @@
   <span class="headline">Part 3: EDA + Preliminary Analysis</span>
 </h1>
 
-## Overview
+## Goal
 
-Begin quantitatively describing and visualizing your data. With rich datasets, EDA can go down an endless number of roads. Maintain perspective on your goals and scope your EDA accordingly. 
+Use summaries and charts to understand what is in your data before building or evaluating a model. This is called **exploratory data analysis (EDA)**. Keep the project question in mind so you focus on the parts of the data that matter.
 
-Managing your own time is a critical skill in analysis projects. Keep notes on your approach, results, setbacks, and findings! These will form the basis of your "progress report" to us for Part 3, as you meet with your instructors to discuss how things are going and what to do next.
+This is a progress report. Describe what you tried, what you found, what surprised you, and what you plan to do next. You do not need to have solved every problem.
 
-**Goal**: A brief report that describes your EDA and analysis so far, as well as your concrete next steps.
+## Steps
 
----
+1. Summarize important columns and create charts that help answer your project question.
+2. Look for unusual values, missing information, and other problems. An **outlier** is a value that is far from most other values; check whether it is an error or a real case before deciding what to do with it.
+3. Describe risks and limits. For example, the data may cover only one location, have few examples, or be missing important information.
+4. Explain how what you learned will affect your next analysis or model.
+5. List three specific actions you will take next.
 
-#### REQUIRED
-1. Create a "progress report" that documents:
-   - Your approach to exploratory data analysis.
-   - Your initial results.
-   - Any roadblocks, setbacks, or surprises.
-   
-2. Perform initial descriptive and visual analysis of your data.
-   - Identify outliers.
-   - Summarize risks and limitations.
+## What to include in your notebook
 
-3. Discuss your proposed next steps.
-   - Describe how your EDA will inform your modeling decisions.
-   - What are three concrete actions you need to take next?
+1. **Question and data:** Briefly remind the reader what you are investigating and what each row represents.
+2. **What I checked:** Describe the summaries, charts, and data quality checks you used.
+3. **What I found:** Explain the main patterns, unusual values, and surprises. Include charts with titles and labelled axes.
+4. **Limits and problems:** Explain what the data cannot tell you or what needs more checking.
+5. **Next steps:** Explain how your findings affect your planned method and list three concrete actions.
 
-#### BONUS
+## What to submit
 
-4. Visualize your EDA and approach using at least **two or more** of the data visualizations methods we've covered in class.
-5. Create a blog post of at least 500 words explaining your EDA so far, including your results, setbacks, and lessons learned. Link to this in your notebook.
+- A Jupyter Notebook progress report.
 
----
+### Optional extensions
 
-## Deliverable Format & Submission
+- Use at least two different types of charts or visual summaries covered in class.
+- Write a blog post of at least 500 words about your analysis, results, setbacks, and lessons. Link to it in your notebook.
 
-- Format: Jupyter Notebook
+## Suggested prompts
 
----
+- What did I expect to find, and what did I find?
+- Which chart or summary best helps explain the data?
+- Are unusual values real, errors, or still uncertain?
+- What limitations should readers keep in mind?
+- What are the next three things I will do?
 
-## Suggested Ways to Get Started
+## Useful resource
 
-- Document **everything** as you go! This will give you valuable material to pull into your report - and will paint a more accurate picture than trying to summarize afterward :)
-- Be candid! This is not a race, but a chance to get valuable feedback. Be honest about what techniques have worked, what steps have taken you down the wrong turns, and what blockers you've run into.
+- [Real-world data science workflows often contain setbacks](https://guerrilla-analytics.com/2015/02/20/data-science-workflows-a-reality-check/)
 
----
+## Evaluation
 
-## Useful Resources
-
-- [Real world data science workflows often contain setbacks](https://guerrilla-analytics.com/2015/02/20/data-science-workflows-a-reality-check/)
-
----
-
-## Project Feedback + Evaluation
-
-You will be evaluated on the requirements above using the below rubric.
-
-#### RUBRIC
-| Score | Interpretation |
-| --- | --- |
-| **0** | *Project fails to meet the minimum requirements for this item.* |
-| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.* |
-| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.* |
-| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
-
-[Attached here is a complete rubric for this project.](./ds-capstone-part-03-rubric.md)
+Your work will be evaluated using the [Part 3 rubric](./ds-capstone-part-03-rubric.md). Read it before you submit.

@@ -3,47 +3,35 @@
   <span class="headline">Rubric for Part 1</span>
 </h1>
 
-## Data Science | Capstone, Part 1			
-Your project criteria were derived from the following standards, taken from our data science lifecycle:
+## How scoring works
 
-- [ ] Frame The Problem
-- [ ] Prepare and Explore Your Data
+Score each required item below from 0 to 3. A score describes how well the work meets that item. Optional extensions do not affect the required score.
 
-Acceptable performance for these standards is based on how well you've performed the specific requirements listed below.
-
----
-
-## Performance Evaluation
-
-#### RUBRIC
-| Score | Interpretation |
+| Score | Description |
 | --- | --- |
-| **0** | *Project fails to meet the minimum requirements for this item.* |
-| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.* |
-| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.* |
-| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
+| **0** | The item is missing or there is not enough information to review it. |
+| **1** | The item is partly complete, but important required information is missing or unclear. |
+| **2** | The item is complete and understandable, with some details or explanations still missing. |
+| **3** | The item is complete, specific, clearly explained, and supported by appropriate information. |
 
+## Required criteria
 
-#### REQUIRED
-1. Prepare a slide deck and host a 3-4 minute lightning talk on **at least two** potential topics for your DSI capstone project. For each topic, define **all** required areas:
+### 1. Slides and presentation
 
-2. Topic 1
-   - Problem Statement
-   - Potential Audience 
-   - Goals
-   - Success Metrics
-   - Data Source(s) _(subject to change)_
-   
-3. Topic 2
-   - Problem Statement
-   - Potential Audience 
-   - Goals
-   - Success Metrics
-   - Data Source(s) _(subject to change)_
+Prepare slides and give a 3–4 minute talk about at least two possible project ideas.
 
-#### BONUS
-4. Beyond the two required topics, what other potential topics might you explore?
-5. For all datasets, identify their source, format, and necessary action items to obtain or access them.
-6. Create a blog post of at least 500 words (and 1-2 graphics!) that describes your project idea, data, and audience. Link to it in your presentation appendix.
+### 2. Project idea 1
 
----
+Describe the question or problem, audience, goal, success measure, and possible data source.
+
+### 3. Project idea 2
+
+Describe the question or problem, audience, goal, success measure, and possible data source.
+
+For both ideas, the data source may change later. The proposed source should be specific enough to check whether it can be accessed and used.
+
+## Optional extensions
+
+- Include additional project ideas.
+- State the format of each possible data source and the steps needed to access it.
+- Write a 500-word blog post with 1–2 graphics and link to it in the slide appendix.
