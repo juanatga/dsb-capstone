@@ -5,11 +5,11 @@
 
 ## Goal
 
-Explain your project and its main findings to people who may not know data science. A clear presentation gives the audience enough background to understand the question, what you did, what you found, and what the findings can and cannot tell them.
+Present a **non-technical summary**: explain your project and its main findings to people who may not know data science. A clear presentation gives the audience enough background to understand the question, what you did, what you found, and what the findings can and cannot tell them.
 
 ## Steps
 
-1. Choose the most important information from your technical report in Part 4.
+1. Use the **executive summary** from Part 4 (your brief overview of the goal, results, and limits) to choose the most important information.
 2. Prepare a slide deck with clear, readable visuals and charts.
 3. Explain technical terms the first time you use them. Tell the audience what a chart shows and why it matters.
 4. Rehearse the presentation and prepare to answer questions.
@@ -17,24 +17,24 @@ Explain your project and its main findings to people who may not know data scien
 ## What to include
 
 - The question and why it matters.
-- Your goal and how you decided whether the result was useful.
+- Your goals and **success criteria / metrics**: what a useful result looks like and how you measure it.
 - What data you used and any important gaps or limits.
 - Your overall approach and a plain-language description of the model or analysis.
 - Your main findings, risks, and limits.
 - What the findings could mean, and possible next steps.
 
-Use a story to connect these points. Focus on the few findings that best answer your question. Use charts or images to help explain them, not to decorate the slides.
+**Data storytelling** means connecting the question, evidence, and findings in an order the audience can follow. Use this structure to connect these points. Focus on the few findings that best answer your question. Use charts or images to help explain them, not to decorate the slides.
 
-## What to submit
+## Deliverables: what to submit
 
 - A slide deck suitable for a public audience.
 - A rehearsed presentation of **15 minutes**, followed by **5 minutes for questions**.
 
 An interactive chart or website may be included as an extra. It does not replace the slide deck or presentation.
 
-### Optional extensions
+### Bonus: optional extensions
 
-- Explain how you might check whether the method stays useful over time or make it available as part of a real service or workflow.
+- Explain **model validation over time** (checking whether the model stays useful) and **deployment in a production environment** (making it available as part of a real service or workflow).
 - Create a public interactive chart so the audience can explore the data and findings. You may link or embed it in a tutorial or blog post.
 
 ## Suggested prompts
@@ -51,7 +51,7 @@ An interactive chart or website may be included as an extra. It does not replace
 
 ## Example projects
 
-These examples were created by past General Assembly data science students. They are optional inspiration; your project can be much smaller and can focus on your own work, interests, or community.
+Most of these examples were created by past General Assembly data science students; the League of Legends project is an external example. They are optional inspiration; your project can be much smaller and can focus on your own work, interests, or community.
 
 - [Kenya Chauche: sonnet generation](https://github.com/KenyaChauche/sonnet-generation)
 - [Molly Baird: computer vision and the game of SET](https://github.com/mollycbaird/ComputerVisionSET)

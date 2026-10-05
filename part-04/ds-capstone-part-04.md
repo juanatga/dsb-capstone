@@ -7,28 +7,32 @@
 
 Present your analysis in a Jupyter Notebook so another data scientist can follow your choices and understand what you found. Explain the question, the data, your method, how you checked its results, and the limits of your conclusions.
 
+Your audience is **technical stakeholders**: people who need to understand or review the technical work. Aim for **reproducible results**, so another person can follow your documented steps and obtain the same results with the same data and setup. This report can become part of your **portfolio**, a collection of work you can show to employers or collaborators.
+
+Use the [DSB Data Science Framework](../README.md#ga-terminology-and-the-data-science-lifecycle) to organize the report.
+
 ## Suggested notebook outline
 
-1. **Summary:** State the question, the main result, how you measured performance, and the most important limits.
-2. **Question and data:** Describe the goal, the audience, the data source, and the columns used. State what one row represents.
-3. **Data preparation and exploration:** Summarize the checks and analysis from Part 3. Explain how you handled unusual values and missing information. If you filled in missing values, explain the method.
-4. **Method:** Explain which model or statistical method you chose and why. Describe the key steps so another person could repeat them.
-5. **Evaluation:** Explain how you tested the method. Name the measure you used, what data you tested it on, and how the result compares with a simple reference method (a **baseline**). Include relevant results, such as the number or size of errors, and explain what they mean for your question.
-6. **Findings and limits:** Explain what the results suggest and what they do not establish. A model result alone does not prove that one thing caused another.
+1. **Executive summary:** A brief overview for a reader who needs the main points. State the question, the main result, how you measured performance, and the most important limits.
+2. **Question and data:** Describe the goal, the audience, the data source, and your **variables of interest** (the columns relevant to your question). State what one row represents.
+3. **Data preparation and exploration:** Summarize the checks and analysis from Part 3. Explain how you handled unusual values and missing information. **Data imputation** means filling in missing values; if you used it, explain the method.
+4. **Model selection and implementation:** Explain which model or statistical method you chose and why (selection). Describe how you built and ran it (implementation) so another person could repeat the steps.
+5. **Evaluation:** Explain how you tested the method. Name the **metric** (performance measure) you used, what data you tested it on, and how the result compares with a simple reference method (a **baseline**). Include relevant results, such as the number or size of errors, and explain what they mean for your question.
+6. **Prediction, inference, and limitations:** Describe any predictions (estimates for new cases) and inferences (conclusions drawn from the analysis). Explain what the results suggest and what they do not establish. A model result alone does not prove that one thing caused another.
 7. **Sources and appendix:** Link to data and external code or libraries, and explain how you used them.
 
 Label each section and each chart clearly. Add short comments to code where they explain an important choice or help another person repeat your work.
 
-## What to submit
+## Deliverables: what to submit
 
 - A complete Jupyter Notebook technical report.
 - A technical appendix with links and explanations for external libraries or code you used.
 - A copy of the data or a link to it **only if you are allowed to share it**. Do not upload personal, confidential, or restricted data to a public repository. If the data cannot be shared, describe its source and structure and ask your instructor how to provide access for review.
 - Host your notebook and other shareable materials in your public GitHub repository, as required for this part.
 
-### Optional extensions
+### Bonus: optional extensions
 
-- Describe how you might monitor the method over time or make it available to users. **Production** means operating the method as part of a real service or workflow.
+- Describe **deployment** (making your model available to users) and how you would validate its performance over time (check whether it still works well). **Production** means operating the method as part of a real service or workflow.
 - Write a tutorial of at least 1,000 words explaining your approach to someone who is new to data science. Link to it in your notebook.
 
 ## Suggested prompts

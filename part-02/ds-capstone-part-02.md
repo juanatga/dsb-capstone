@@ -5,9 +5,9 @@
 
 ## Goal
 
-Choose one idea from Part 1. Find data that can help answer your question, check whether it is suitable, make any needed changes, and explain what the data contains.
+Use feedback from your Part 1 **lightning talk** (your short project pitch) to choose one idea. Find data that can help answer your question, check whether it is suitable, make any needed changes, and explain what the data contains.
 
-Finding and preparing data can take time. Check early that you can access and use the data. If it does not fit your question, change the data source or revise your question.
+**Data acquisition** means finding and obtaining data. **Data munging** means changing its structure or format so you can analyze it. **Data cleaning** means checking and handling errors, duplicates, missing values, and inconsistent entries. These steps can take time. Check early that you can access and use the data. If it does not fit your question, change the data source or revise your question.
 
 ## Steps
 
@@ -27,7 +27,7 @@ You do not need to create a database. A spreadsheet, CSV file, other data file, 
 | `amount_eur` | Amount paid in euros | Number, decimal |
 | `paid_on_time` | Whether the payment was on time | Yes/no |
 
-## What to submit
+## Deliverables: what to submit
 
 - The data files, or a link to data that the instructor can access.
 - A Jupyter Notebook describing the source, contents, checks, and changes you made.
@@ -35,9 +35,9 @@ You do not need to create a database. A spreadsheet, CSV file, other data file, 
 
 Do not publish personal, confidential, or restricted data. If you cannot share the data, do not include it in a public repository. Instead, describe its source and structure, remove or protect sensitive information where permitted, and ask your instructor how they can review your work.
 
-### Optional extensions
+### Bonus: optional extensions
 
-- Update your project goal and describe your planned methods, assumptions, and risks.
+- State your **specific aim** (the precise result you want to achieve) and describe your planned methods, assumptions, and risks.
 - Write a blog post of at least 500 words about your work and link to it in your notebook.
 
 ## Suggested prompts

@@ -9,39 +9,41 @@ Choose a project question that matters to you and may be answered with data. You
 
 If you need ideas, read [Finding a Data Science Capstone Idea](./capstone-project-ideas.md).
 
+A **pitch** is a brief explanation of an idea and why it is worth exploring. For this part, you will give a **lightning talk**: a short, focused pitch supported by a **slide deck** (your presentation slides). Your whole talk lasts 3–4 minutes. Practise choosing the key points and speaking at a comfortable pace.
+
 ## Steps
 
-1. Think of at least two possible project questions.
+1. Think of three possible project questions.
 2. For each question, identify a possible audience, the result you want to produce, a way to judge whether that result is useful, and a possible data source.
 3. Check that each data source exists and that you can access and use it. If the exact data is unavailable, narrow or change the question, or look for comparable data.
-4. Prepare slides and give a 3–4 minute talk about your two ideas.
+4. Prepare a slide deck and give a 3–4-minute lightning talk about your three ideas.
 
 ## What to include for each idea
 
-- **Question or problem:** What do you want to find out or predict?
-- **Audience:** Who might use or care about the result?
-- **Goal:** What result do you hope to produce?
-- **Success measure:** How will you judge whether the result is useful? A measure could describe how often predictions are correct or how large their errors are.
-- **Possible data source:** Where could the data come from? Say whether it is available, and note any access steps or restrictions.
+- **Problem statement:** What do you want to find out or predict?
+- **Potential audience:** Who might use or care about the result?
+- **Goals:** What result do you hope to produce?
+- **Success metrics:** What measures will you use to judge whether the result is useful? A metric could describe how often predictions are correct or how large their errors are.
+- **Data source(s):** Where could the data come from? Say whether it is available, and note any access steps or restrictions.
 
 ### Example
 
 For a project about missed payments:
 
-- **Question:** Can past payment information help identify payment plans at higher risk of a missed payment?
-- **Audience:** Staff who help people manage payment plans.
-- **Goal:** Identify plans that may need follow-up.
-- **Success measure:** Check how many missed payments the method identifies and how many plans it flags by mistake.
-- **Possible data source:** An approved, anonymized record of payment plans and their outcomes. If this is not available, find a public dataset with similar information or choose another question.
+- **Problem statement:** Can past payment information help identify payment plans at higher risk of a missed payment?
+- **Potential audience:** Staff who help people manage payment plans.
+- **Goals:** Identify plans that may need follow-up.
+- **Success metrics:** Check how many missed payments the method identifies and how many plans it flags by mistake.
+- **Data source(s):** An approved, anonymized record of payment plans and their outcomes. If this is not available, find a public dataset with similar information or choose another question.
 
-## What to submit
+## Deliverables: what to submit
 
-- Slides for at least two possible project ideas.
-- A 3–4 minute presentation.
+- A slide deck covering three possible project ideas.
+- A 3–4-minute lightning talk covering all three ideas.
 
-### Optional extensions
+### Bonus: optional extensions
 
-- Include more than two possible ideas.
+- Explore additional ideas beyond the three required for this class.
 - For each data source, state its format and what you need to do to get access.
 - Write a blog post of at least 500 words about your project idea, data, and audience. Include 1–2 graphics and link to the post in an appendix to your slides.
 

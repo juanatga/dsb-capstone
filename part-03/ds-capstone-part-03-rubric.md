@@ -3,16 +3,24 @@
   <span class="headline">Rubric for Part 3</span>
 </h1>
 
-## How scoring works
+## GA data science lifecycle standards
 
-Score each required item below from 0 to 3. A score describes how well the work meets that item. Optional extensions do not affect the required score.
+This rubric (the criteria used to assess your work) follows these GA stages:
+
+- **Frame The Problem:** define the question, audience, goals, and success metrics.
+- **Prepare and Explore Your Data:** collect, clean, and examine the data.
+- **Model:** choose, build, and evaluate a model or statistical method.
+
+## Performance evaluation: how scoring works
+
+**Portfolio-ready** means work that is clear, complete, and well explained enough to show to an employer or collaborator. Score each required item below from 0 to 3 using GA’s scale. A score describes how well the work meets that item. Optional extensions do not affect the required score.
 
 | Score | Description |
 | --- | --- |
-| **0** | The item is missing or there is not enough information to review it. |
-| **1** | The item is partly complete, but important required information is missing or unclear. |
-| **2** | The item is complete and understandable, with some details or explanations still missing. |
-| **3** | The item is complete, specific, clearly explained, and supported by appropriate information. |
+| **0** | Does not meet the minimum requirements for this item. |
+| **1** | Meets the minimum requirements, but needs substantial improvement to be portfolio-ready. |
+| **2** | Exceeds the minimum requirements, but still needs improvement to be portfolio-ready. |
+| **3** | Meets or exceeds portfolio-ready expectations and shows a thorough understanding of all listed requirements. |
 
 ## Required criteria
 
@@ -20,15 +28,15 @@ Score each required item below from 0 to 3. A score describes how well the work 
 
 Describe the analysis you have done, your initial results, and any problems, surprises, or changes in direction.
 
-### 2. Summaries, charts, and data limits
+### 2. Descriptive and visual analysis
 
-Use summaries and charts to describe the data. Identify unusual values and explain how you checked them. Describe important risks and limits in the data.
+Use summaries and charts to describe the data. Identify **outliers** (values far from most others) and explain how you checked them. Describe important risks and limits in the data.
 
 ### 3. Next steps
 
 Explain how what you learned will affect your next analysis or model. List three specific actions you will take next.
 
-## Optional extensions
+## Bonus: optional extensions
 
 - Use at least two different types of charts or visual summaries covered in class.
 - Write a 500-word blog post about your analysis, results, setbacks, and lessons. Link to it in your notebook.

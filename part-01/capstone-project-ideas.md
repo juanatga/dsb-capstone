@@ -102,11 +102,13 @@ Use these prompts to turn a broad interest into a project proposal. An **outcome
 4. **What does one row of my data represent?** For example, one match, payment, injury, day of weather, or sensor reading.
 5. **Can I find data with the outcome and input variables I need?** Check source, access rules, language, time period, geographic coverage, and data quality.
 6. **What simple baseline can I compare against?** A baseline is a simple result or method to beat. It shows whether a more complex method adds value.
-7. **How will I measure success?** Choose a measure that reflects the cost of different errors and the needs of the audience.
+7. **What are my success metrics?** Choose measures that reflect the cost of different errors and the needs of the audience.
 8. **Can I test the model on data it did not learn from?** For time-based data, preserve the order of time when making the test split.
 9. **What are the risks and limits?** Consider privacy, bias, missing data, small samples, changing conditions, and whether results generalize to the people or place of interest.
 
 ### A proposal template
+
+Use this template to prepare your **pitch** (a brief explanation of your idea). In Part 1, you will share your ideas in a **lightning talk** (a short, focused presentation).
 
 > **For [audience], I want to [predict a result / sort cases into categories / estimate a value / find a pattern] using [data source]. I will compare [method] with [simple baseline] and measure success using [success measure]. The result could support [decision or understanding]. The main limits are [data, privacy, fairness, or whether the result applies in other settings].**
 
