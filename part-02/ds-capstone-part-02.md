@@ -3,6 +3,18 @@
   <span class="headline">Part 2: Dataset + Data Collection</span>
 </h1>
 
+---
+
+## IMPORTANT: Use public or synthetic data only
+
+> **Do not use proprietary or confidential records, private data from another person or organization, data obtained without authorization, or sensitive personal data.** This applies to collecting, analyzing, uploading, and submitting data.
+>
+> Choose a public dataset whose terms allow your planned use and sharing, or synthetic data (made-up records that do not expose real people’s information). Access to a file or removal of names does not make private data acceptable.
+>
+> **Unsure? Ask your instructor before obtaining or using the data. Describe the source without sending the data.** Read the [full data requirements](../README.md#important-no-proprietary-private-or-sensitive-personal-data).
+
+---
+
 ## Goal
 
 Use feedback from your Part 1 **lightning talk** (your short project pitch) to choose one idea. Find data that can help answer your question, check whether it is suitable, make any needed changes, and explain what the data contains.
@@ -33,7 +45,7 @@ You do not need to create a database. A spreadsheet, CSV file, other data file, 
 - A Jupyter Notebook describing the source, contents, checks, and changes you made.
 - A data dictionary.
 
-Do not publish personal, confidential, or restricted data. If you cannot share the data, do not include it in a public repository. Instead, describe its source and structure, remove or protect sensitive information where permitted, and ask your instructor how they can review your work.
+Before submitting, check both the data files and notebook outputs against the data requirements above. If a dataset does not meet them, replace it with a suitable public or synthetic dataset.
 
 ### Bonus: optional extensions
 

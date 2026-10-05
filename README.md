@@ -7,6 +7,25 @@
 
 The General Assembly (GA) capstone is a project that brings together the skills you have learned in the program. You will choose a question, find and prepare data, explore it, build and evaluate an analysis or model, and explain what you learned.
 
+---
+
+## IMPORTANT: No proprietary, private, or sensitive personal data
+
+> **Required for this capstone:** Use only public datasets whose terms allow your planned use and sharing, or synthetic data (made-up records that do not expose real people’s information).
+>
+> **Do not collect, upload, analyze, or submit:**
+>
+> - **Proprietary or confidential data**, including internal records from an employer, client, school, or other organization.
+> - **Private data from another person or organization**, including files shared with you privately.
+> - **Data obtained without authorization** from its owner or, where required, the people whose information it contains.
+> - **Sensitive personal data**, such as identifiable health, financial, student, identity, or location records.
+>
+> Having access to data does not make it suitable for this project. Removing names alone does not make private data acceptable. Data visible online may still contain personal information or have restrictions on reuse.
+>
+> **If you are unsure, stop and ask your instructor before obtaining or using the data. Describe the source; do not send the data itself. Choose another dataset if it does not meet these requirements.**
+
+---
+
 ## Your path through the project
 
 A **deliverable** is work you submit for feedback or assessment. The five project deliverables are listed below. A **rubric** lists the criteria used to assess that work.
@@ -52,7 +71,7 @@ Follow the due dates and presentation schedule shared by your instructor. This r
 
 ## Sharing your work safely
 
-Before you publish a notebook or data file, check that you have permission to share it. Do not publish personal, confidential, or otherwise restricted data. If you cannot share the data, describe its source and structure and explain how an instructor can review your work safely.
+Follow the [data requirements above](#important-no-proprietary-private-or-sensitive-personal-data) throughout the project. Check notebook outputs, charts, screenshots, slides, and repository files before sharing. They must not expose private or sensitive personal data.
 
 ## Repository note
 

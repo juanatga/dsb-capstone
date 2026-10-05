@@ -3,6 +3,18 @@
   <span class="headline">Part 1: Pitch + Problem Statement</span>
 </h1>
 
+---
+
+## IMPORTANT: Use public or synthetic data only
+
+> **Do not use proprietary or confidential records, private data from another person or organization, data obtained without authorization, or sensitive personal data.** This applies to collecting, analyzing, uploading, and submitting data.
+>
+> Choose a public dataset whose terms allow your planned use and sharing, or synthetic data (made-up records that do not expose real people’s information). Access to a file or removal of names does not make private data acceptable.
+>
+> **Unsure? Ask your instructor before obtaining or using the data. Describe the source without sending the data.** Read the [full data requirements](../README.md#important-no-proprietary-private-or-sensitive-personal-data).
+
+---
+
 ## Goal
 
 Choose a project question that matters to you and may be answered with data. You can start from your work, a personal interest, or a question that matters to your community. The project should be small enough to complete during the program.
@@ -34,7 +46,7 @@ For a project about missed payments:
 - **Potential audience:** Staff who help people manage payment plans.
 - **Goals:** Identify plans that may need follow-up.
 - **Success metrics:** Check how many missed payments the method identifies and how many plans it flags by mistake.
-- **Data source(s):** An approved, anonymized record of payment plans and their outcomes. If this is not available, find a public dataset with similar information or choose another question.
+- **Data source(s):** A public dataset of payment outcomes with terms that allow project use and sharing, and no sensitive personal data. If none is suitable, use synthetic records to practise the method or choose another question.
 
 ## Deliverables: what to submit
 

@@ -23,11 +23,19 @@ Use the [DSB Data Science Framework](../README.md#ga-terminology-and-the-data-sc
 
 Label each section and each chart clearly. Add short comments to code where they explain an important choice or help another person repeat your work.
 
+---
+
+## IMPORTANT: Check before sharing your work
+
+> **Your report must use only suitable public or synthetic data. Do not include proprietary, private, unauthorized, or sensitive personal data in files, notebook outputs, charts, screenshots, or links.** Check all materials before uploading to GitHub or submitting. Follow the [full data requirements](../README.md#important-no-proprietary-private-or-sensitive-personal-data).
+
+---
+
 ## Deliverables: what to submit
 
 - A complete Jupyter Notebook technical report.
 - A technical appendix with links and explanations for external libraries or code you used.
-- A copy of the data or a link to it **only if you are allowed to share it**. Do not upload personal, confidential, or restricted data to a public repository. If the data cannot be shared, describe its source and structure and ask your instructor how to provide access for review.
+- A copy of your suitable public or synthetic dataset, or a link to its public source. Record the source and terms that allow its use and sharing.
 - Host your notebook and other shareable materials in your public GitHub repository, as required for this part.
 
 ### Bonus: optional extensions

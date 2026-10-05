@@ -1,5 +1,17 @@
 # Finding a Data Science Capstone Idea
 
+---
+
+## IMPORTANT: Use public or synthetic data only
+
+> **Do not use proprietary or confidential records, private data from another person or organization, data obtained without authorization, or sensitive personal data.** This applies to collecting, analyzing, uploading, and submitting data.
+>
+> Choose a public dataset whose terms allow your planned use and sharing, or synthetic data (made-up records that do not expose real people’s information). Access to a file or removal of names does not make private data acceptable.
+>
+> **Unsure? Ask your instructor before obtaining or using the data. Describe the source without sending the data.** Read the [full data requirements](../README.md#important-no-proprietary-private-or-sensitive-personal-data).
+
+---
+
 You do not need data from your current institution. Start with a question you care about, then look for data that can help answer it. Your idea can come from:
 
 - **Your current work:** a decision, prediction, or recurring uncertainty in your field.
@@ -30,7 +42,7 @@ Analytics and automation can be part of a data science project. The main contrib
 
 ## Examples inspired by students' work
 
-These examples build on interests students have mentioned. You do not need data from an institution. Look for public data, an approved dataset with identifying details removed, or similar data from another setting.
+These examples build on interests students have mentioned. You do not need data from an institution. Look for public data that meets the project’s data requirements, synthetic data, or suitable public data from another setting.
 
 ### Weather
 
@@ -116,7 +128,7 @@ Use this template to prepare your **pitch** (a brief explanation of your idea). 
 
 - Search for public data from another country, city, sport, or field that has similar variables.
 - Narrow the question to match the data that is available.
-- Use an approved anonymized sample if one can be provided safely.
+- Choose another public dataset whose terms allow your planned use and sharing and that contains no sensitive personal data.
 - Use synthetic data to practice a method, while stating that synthetic results do not establish real-world performance.
 - If the dataset does not say which outcome happened, you may still look for groups of similar cases (clustering) or unusual cases (anomaly detection). Decide how you will judge whether those results are useful.
 

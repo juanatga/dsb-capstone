@@ -42,7 +42,7 @@ Explain predictions (estimates for new cases), inferences (conclusions from the 
 
 ### 5. Sources and sharing
 
-Include an appendix with links to external libraries, code, and data sources. Host the notebook and shareable materials in a public GitHub repository. Do not publish data that is personal, confidential, or restricted; explain how the instructor can review work that cannot be shared publicly.
+Include an appendix with links to external libraries, code, and data sources. Host the notebook and shareable materials in a public GitHub repository. Use only public or synthetic data that meets the [project data requirements](../README.md#important-no-proprietary-private-or-sensitive-personal-data). Check that files and outputs contain no proprietary, private, unauthorized, or sensitive personal data.
 
 ## Bonus: optional extensions
 

@@ -25,6 +25,14 @@ Present a **non-technical summary**: explain your project and its main findings 
 
 **Data storytelling** means connecting the question, evidence, and findings in an order the audience can follow. Use this structure to connect these points. Focus on the few findings that best answer your question. Use charts or images to help explain them, not to decorate the slides.
 
+---
+
+## IMPORTANT: Check your slides and visuals
+
+> **Do not show proprietary, private, unauthorized, or sensitive personal data.** Check charts, screenshots, examples, and linked demos as well as slide text. Use only data that meets the [project data requirements](../README.md#important-no-proprietary-private-or-sensitive-personal-data).
+
+---
+
 ## Deliverables: what to submit
 
 - A slide deck suitable for a public audience.
